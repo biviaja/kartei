@@ -1,0 +1,352 @@
+body{
+	background: #dde2e6;
+	font-size: 1.2em;
+	font-family: 'Open Sans', Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1;
+	font-weight: 400;
+}
+p{
+	line-height: 1.6;
+}
+a{
+	color: #274452;
+	text-decoration: underline;
+}
+a.btn{
+	text-decoration: none;
+}
+a:hover{
+	color: #777;
+	text-decoration: underline;
+}
+a img:hover{
+	opacity: 0.7;
+	-o-transition:.5s;
+	-ms-transition:.5s;
+	-moz-transition:.5s;
+	-webkit-transition:.5s;
+	transition:.5s;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+	font-weight: 600;
+}
+h2{
+	color:#274452;
+	font-family: 'Spinnaker', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin: 0 0 40px 0;
+	text-transform: uppercase;
+}
+h3{
+	color:#274452;
+	font-family: 'Spinnaker', Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0 0 10px 0;
+	text-transform: uppercase;
+}
+h3 span{
+	text-transform: none;
+}
+h2 a, h3 a{
+	color:#274452;
+	text-decoration:none;
+}
+h2 a:hover, h3 a:hover{
+	text-decoration:none;
+}
+h4{
+	color: #274452;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin: 0 0 20px 0;
+}
+h5, h6{
+	color: #274452;
+	font-weight: bold;
+	font-size: 1.05em;
+}
+sub {
+    bottom: -.55em;
+    font-size: 3em;
+	font-style: normal;
+	line-height: 0;
+}
+ul{
+	padding:0;
+}
+ul li{
+	list-style-type: none;
+	padding: 15px 0 0 0;
+}
+.card ul{
+	margin-bottom: 0;
+}
+/***   NAVEGAÇÃO   ***/
+.navbar{
+	background: #727d83 url(../img/fundo_topo.jpg) no-repeat;
+	background-size: cover;
+	border: 0;
+	margin-bottom: 0;
+	padding: 1.5rem 1rem;
+}
+.navbar-collapse{
+	padding: 0;
+}
+.navbar-brand{
+	margin-right: 0;
+}
+.navbar-brand img{
+	width: 200px;
+}
+.navbar .title{
+	color: #fff;
+	font-family: Times, Georgia, serif;
+	font-size: 30px;
+	font-weight: normal;
+	line-height: 1;
+}
+.navbar .title span{
+	font-size: 18px;
+	font-weight: normal;
+}
+ul.logout{
+	font-size: 1em;
+	margin-bottom: 30px;
+}
+.logout li{
+	display: inline-block;
+}
+.logout li:first-child{
+	padding-right: 10px;
+}
+.logout li:first-child:after{
+	content:"•";
+	padding-left: 10px;
+}
+main.container{
+	padding: 20px 0;
+}
+.lista-fichas-pesquisador{
+	padding: 0;
+	border: 1px solid #a3b1b9;
+}
+.lista-fichas-pesquisador li{
+	list-style-type: none;
+	border-bottom: 1px solid #a3b1b9;
+}
+.lista-fichas-pesquisador li:last-child{
+	border-bottom: 0;
+}
+.lista-fichas-pesquisador li a{
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+}
+.lista-fichas-pesquisador li a:hover{
+	background-color: #274452;
+	color: #fff;
+}
+.matricula{
+	display: inline-block;
+	width: 25%
+}
+.text-success{
+	color: #008c20 !important;
+}
+
+
+
+/***** FORMS *****/
+.form-group{
+	margin-bottom: 30px;
+}
+.form-inline label~input[type=text]{
+	margin-left: 10px;
+}
+.form-inline input~button{
+	margin-left:20px;
+}
+.form-control{
+	font-size: 1em;
+}
+.form-control-plaintext{
+	line-height: 1;
+	padding: 0;
+}
+.form-control-plaintext:focus{
+	border-color: transparent;
+	box-shadow: none;
+}
+.form-control:disabled, .form-control[readonly]{
+	background-color: transparent;
+}
+.form-check-input{
+	margin-left: .3rem;
+}
+.form-check-input~label{
+	padding-left: 1.65rem;
+}
+.form-check-inline{
+	padding-left: 1.25rem;
+}
+.form-check-inline .form-check-input~label{
+	padding-left:.2rem;
+}
+
+
+/***** BUTTONS *****/
+.btn-primary, .btn-primary:link, .btn-primary:focus, .btn-primary.focus {
+    background: #384f5d;
+    border-color: #384f5d;
+}
+.btn-primary:hover, .btn-primary.active, .btn-primary:active {
+    background: #0f222b;
+    border-color: #0f222b;
+}
+.projects a.btn-primary, .projects a.btn-primary:hover {
+    color: #fff;
+}
+.btn-primary.focus, .btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(153, 170, 183);
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: #0f222b;
+    border-color: #0f222b;
+}
+.btn-success {
+    background-color: #008c20;
+    border-color: #008c20;
+}
+.btn-success:hover {
+    background-color: #016918;
+    border-color: #016918;
+}
+
+
+
+/***** CARDS *****/
+.card{
+	background-color: rgba(255, 255, 255, 0.44);
+	margin-bottom: 20px;
+}
+.card-atencao{
+	background-color: #ffecee;
+	border-color: #af0000;
+}
+
+
+
+/***** TABELAS *****/
+.table thead th, .table tbody td {
+    border:1px solid #274452;
+}
+
+
+
+/***** Passos *****/
+
+.carousel-inner .btn{
+	margin-right: 10px;
+}
+.carousel-indicators {
+  position: relative;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  padding-left: 15px;
+  z-index: 0;
+}
+.carousel-indicators .active{
+	background-color:transparent;
+}
+.passos{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 40px 20px 20px 20px;
+}
+.passo{
+  border-top: 5px solid #999;
+  padding: 0 !important;
+}
+.passo:last-child{
+  border:none;
+}
+.passo-num-txt{
+  display: inline-block;
+  margin-left: -40px;
+  margin-top: -12px;
+  text-align: center;
+  width: 80px;
+}
+.passo:last-child .passo-num-txt{
+  margin-top: -7px;
+}
+.passo-num{
+  background-color: #999;
+  border-radius: 50px;
+  color: #fff !important;
+  padding: .35em .7em;
+}
+.passo-num-txt:hover{  
+  text-decoration: none;
+}
+.passo .passo-num-txt:hover .passo-num, .passo .passo-num-txt:hover .passo-txt, .passo .passo-num-txt:hover{
+  cursor: default;
+}
+.passo[data-target="#carrossel-passos"] .passo-num-txt:hover .passo-num{
+  background-color: #555;
+  cursor: pointer;
+}
+.passo-txt{
+  color: #999;
+  display: inline-block;
+  font-size: .9em;
+  margin-top: 10px;
+}
+.passo-anterior, .passo-salvo{
+  border-color: #00629b;
+}
+.passo-fim{
+  border-color: #999;
+}
+.passo-anterior .passo-num, .passo-salvo .passo-num{
+  background-color: #00629b;
+}
+.passo-anterior .passo-txt, .passo-salvo .passo-txt{
+  color: #00629b;
+}
+.passo-anterior[data-target="#carrossel-passos"] .passo-num-txt:hover .passo-num, .passo-salvo[data-target="#carrossel-passos"] .passo-num-txt:hover .passo-num{
+  background-color: #004165;
+  text-decoration: none;
+}
+.carousel .active .passo-num{
+  background-color: #008542;
+}
+.carousel .active .passo-txt{
+  color: #008542;
+}
+.passo[data-target="#carrossel-passos"].active .passo-num-txt:hover .passo-num{
+  background-color: #008542;
+  text-decoration: none;
+}
+.carousel-item{
+  min-height: 69vh;
+  padding-bottom: 15px;
+}
+
+
+
+/***** MEDIA QUERIES *****/
+@media (min-width: 576px){
+	.form-inline label {
+		justify-content: start;
+	}
+	.form-inline .form-group{
+	margin-bottom: 30px;
+
+	}
+}

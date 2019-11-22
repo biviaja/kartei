@@ -1,0 +1,311 @@
+.bot_entrar
+{
+color:#eee;
+font-style: inherit;
+font-size:16px;
+font-weight: normal;
+height:20px;
+background-color: #3c3;
+border-top-width: 1px;
+border-right-width: 1px;
+border-bottom-width: 1px;
+border-left-width: 1px;
+border-top-style: groove;
+border-right-style: outset;
+border-bottom-style: outset;
+border-left-style: groove;
+border-top-color: #0C0;
+border-right-color: #060;
+border-bottom-color: #060;
+border-left-color: #0C0;
+appearance: outline-tree;
+align-self:baseline;
+}
+
+body.tam_tela_login 
+{
+width:500px;
+height:500px;
+}
+html.tam_tela_login 
+{
+overflow-x:hidden;
+overflow-y:hidden ;
+}
+
+input[type=text].formLogin, input[type=password].formLogin
+{
+color:black;
+font-size:9.0pt;
+font-weight:bold;
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+text-align:left;
+vertical-align:middle;
+padding-top:1px;
+padding-right:1px;
+padding-left:1px;
+border-top:1pt solid #000000;
+border-right:none;
+border-bottom:none;
+border-left:1pt solid #dedede;
+white-space:nowrap;
+background-color: #eee;
+width:180px;
+height:20px;
+}
+
+input[type=text].formInvisivel
+{
+color:black;
+font-size:12.0pt;
+font-weight:bold;
+font-style:normal;
+text-decoration:none;
+font-family:Verdana;
+text-align:left;
+vertical-align:middle;
+padding-top:0px;
+padding-right:0px;
+padding-left:0px;
+border-top:none;
+border-right:none;
+border-bottom:none;
+border-left:none;
+white-space:nowrap;
+background-color: #dde2e6;
+width:180px;
+height:20px;
+}
+.layerLogin 
+{
+color:#00c;
+background-color: transparent;
+width: 13%;
+height: 300px;
+visibility: visible;
+z-index:18;
+vertical-align:middle;
+text-align: center;
+position:absolute;
+top:150px;
+left:43%;
+}
+.layerMsgCadastro
+{
+color:#00c;
+background-color: transparent;
+width: 13%;
+height: 300px;
+visibility: visible;
+z-index:18;
+vertical-align:middle;
+text-align: center;
+position:absolute;
+top:150px;
+left:43%;
+}
+.menuIdioma
+{
+font-size:small;
+font-family:Verdana;
+font-weight:normal;
+color:#00C;
+text-align: right;
+text-decoration: none;
+background-color: transparent;
+position: fixed;
+left:85%;
+top: 2%;
+}
+
+.titulo_vermelho
+{
+width:100%;
+left:90%;
+font-size:36px;
+font-family:Arial;
+font-weight:bold;
+color:#F33;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+.titulo_preto
+{
+width:100%;
+left:90%;
+font-size:36px;
+font-family:Arial;
+font-weight:bold;
+color:#000;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+.subtitulo_preto
+{
+width:100%;
+left:90%;
+font-size:20px;
+font-family:Arial;
+font-weight:normal;
+color:#000;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+.login_vermelho
+{
+width:100%;
+left:90%;
+font-size:16px;
+font-family:Arial;
+font-weight:bold;
+color:#F33;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+.login_preto
+{
+width:100%;
+left:90%;
+font-size:16px;
+font-family:Arial;
+font-weight:bold;
+color:#000;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+
+.LayerDados
+{
+width:100%;
+left:90%;
+font-size:16px;
+font-family:Arial;
+font-weight:normal;
+color:#000;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+
+LayerSaudacao
+{
+width:100%;
+left:90%;
+font-size:26px;
+font-family:Arial;
+font-weight:normal;
+color:#000;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+.editarCampo
+{
+width:100%;
+left:90%;
+font-size:20px;
+font-family:Verdana;
+font-weight:normal;
+color:#00C;
+text-align: left;
+text-decoration: none;
+background-color: #9CC;
+}
+.txLogin
+{
+width:100%;
+left:90%;
+font-size:x-small;
+font-family:Verdana;
+font-weight:normal;
+color:#00C;
+text-align: left;
+text-decoration: none;
+background-color: transparent;
+}
+.msgLogin
+{
+position:absolute;
+top:80%;
+left:0px;
+width: 100%;
+height: 60px;
+visibility: visible;
+z-index:18;
+font-size:14px;
+font-family:Verdana;
+font-weight:normal;
+color:#00C;
+background-color: transparent;
+vertical-align:middle;
+text-align: center;
+border-bottom: #FF0000 0px;
+border-left: #FF0000 0px;
+border-right: #FF0000 0px;
+border-top: #FF0000 0px;
+} 
+.msgCadastro{
+position:absolute;
+top:20%;
+left:0px;
+width: 100%;
+height: 60px;
+visibility: visible;
+z-index:20;
+font-size:14px;
+font-family:Verdana;
+font-weight:normal;
+color:#00C;
+background-color: transparent;
+vertical-align:middle;
+text-align: center;
+border-bottom: #FF0000 0px;
+border-left: #FF0000 0px;
+border-right: #FF0000 0px;
+border-top: #FF0000 0px;
+}
+.layerIdioma
+{
+position:absolute;
+left:30px;
+width: 0px;
+height: 0px;
+visibility:hidden;
+z-index:18;
+font-size:0px;
+font-family:Verdana;
+font-weight:normal;
+color:#003;
+background-color: transparent;
+vertical-align:middle;
+text-align: center;
+border-bottom: #FF0000 0px;
+border-left: #FF0000 0px;
+border-right: #FF0000 0px;
+border-top: #FF0000 0px;
+visibility: hidden;
+}
+.lEsqsenha
+{
+position:absolute;
+width: 150px;
+height: 30px;
+vertical-align:middle;
+text-align: left;
+font-size:9px;
+font-family:Verdana;
+font-weight:normal;
+color:#003 ;
+background-color: transparent;
+}
+a.esqsenha:link { color: #633;}
+a.esqsenha:visited { color: #633;}
+a.esqsenha:hover {color: red;}
+a.esqsenha:active {color: blue;}
