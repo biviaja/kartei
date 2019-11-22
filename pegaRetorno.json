@@ -1,0 +1,3 @@
+{
+    "fase": "$_SESSION['ficha']['fase']"
+}
